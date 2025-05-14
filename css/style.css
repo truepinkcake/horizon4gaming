@@ -720,7 +720,7 @@ section {
 
 .hero-image {
     position: relative;
-    height: 600px;
+    height: 750px;
     background: url('../images/hero.png') no-repeat center center;
     background-size: contain;
     animation: float 6s ease-in-out infinite;

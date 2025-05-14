@@ -1137,11 +1137,11 @@ section {
 }
 
 .team-section .col-lg-3:nth-child(2) .member-image {
-    background-image: url('../images/fox.jpg');
+    background-image: url('../images/fox.png');
 }
 
 .team-section .col-lg-3:nth-child(3) .member-image {
-    background-image: url('../images/lexamde.jpg');
+    background-image: url('../images/lexamde.png');
 }
 
 .team-section .col-lg-3:nth-child(4) .member-image {

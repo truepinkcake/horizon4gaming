@@ -1,0 +1,195 @@
+:root {
+  --primary-color: #0097B2;
+  --primary-dark: #00768C;
+  --primary-light: #33B6CC;
+  --secondary-color: #F57C00;
+  --secondary-light: #FF9D3F;
+  --secondary-dark: #C25E00;
+  --dark-color: #1A2C37;
+  --light-color: #F8F9FA;
+  --gray-color: #6C757D;
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  color: var(--dark-color);
+  line-height: 1.6;
+}
+
+/* Ajustes generales */
+.py-5 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--gray-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.rounded-4 {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-custom {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/* Navbar */
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Timeline en about page */
+.timeline .card {
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+/* Ajustes responsive */
+@media (max-width: 991.98px) {
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  
+  h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .py-5 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+  
+  .display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+  }
+  
+  .display-6 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+}
+
+/* Progress bars in case study section */
+.progress {
+  height: 10px;
+  background-color: #E9ECEF;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: var(--primary-color);
+}
+
+/* Quote icon */
+.bi-quote {
+  color: var(--primary-light);
+  opacity: 0.2;
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--dark-color);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--white) !important;
+}
+
+/* Badge styling */
+.badge {
+  padding: 0.5em 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* Form elements */
+.form-control, .form-select {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #E9ECEF;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--primary-light);
+  box-shadow: 0 0 0 0.25rem rgba(0, 151, 178, 0.25);
+}
